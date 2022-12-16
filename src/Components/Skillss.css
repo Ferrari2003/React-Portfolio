@@ -1,0 +1,33 @@
+.skill .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+   
+    
+}
+
+.skill .box-container .box {
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+
+.skill .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.skill .box-container .box:hover img {
+    transform: scale(1.2);
+}
+
+
